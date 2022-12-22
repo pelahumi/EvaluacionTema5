@@ -1,5 +1,8 @@
 def suma(a,b):
-    return a+b
+    try:
+        return a+b
+    except TypeError:
+        return "Error: Tipo de dato no válido"
 
 def resta(a,b):
     return a-b
